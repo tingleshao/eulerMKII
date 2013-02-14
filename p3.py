@@ -10,9 +10,8 @@ def generatePrime(n):
 				if i in p2:
 					p2.remove(i)
 	return p2 
-	
-#print generatePrime(100)	
-# try generatePrime(100)
+
+# some trials and tests..
 p = generatePrime(1000)
 for i in p:
 	if n % i == 0:
@@ -36,3 +35,4 @@ print p2
 for i in p2:
 	if n4 % i == 0:
 		print i
+		
