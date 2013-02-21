@@ -13,3 +13,23 @@ for r in range(41):
 	print row
 	
 print  p(40,20)
+
+# dynamic programming solution:
+def dp(sze):
+	grid = []
+	for i in range(sze):
+		row = []
+		for j in range(sze):
+			if i == 0 or j == 0:
+				row.append(1)
+			else:
+				row.append(0)
+		grid.append(row)
+	for i in range(sze):
+		for j in range(sze):
+			if i > 0 and j > 0:
+				grid[i][j] = grid[i-1][j] + grid[i][j-1]
+	return grid
+g = dp(21)
+for row in g:
+	print row
