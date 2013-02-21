@@ -23,8 +23,6 @@ for i in range(1,15):
 		elif j == len(tri[i]) - 1:
 			tri[i][j] = tri[i-1][j-1] + tri[i][j]
 		else:
-			print i
-			print j
 			tri[i][j] = max([tri[i][j]+tri[i-1][j],tri[i][j]+tri[i-1][j-1]])
 
 for row in tri:
