@@ -30,13 +30,18 @@ not_sum_abun_lst = range(1,23124)
 all_n = range(1,23124)
 
 for i in all_n:
+	print i
+	print '...'
 	for j in abun_lst:
 		if i - j in abun_lst:
 			not_sum_abun_lst.remove(i)
+			print "no"
 			break
+	print "yes"
 		
 print not_sum_abun_lst
 sum = 0 
 for i in not_sum_abun_lst:
 	sum = sum + i 
 print sum
+
