@@ -1,5 +1,6 @@
 # problem 28
 # 1001 by 1001: there will be 500 layers
+# just add these numbers clockwise
 sum = 1
 curr= 3
 diff = 2
