@@ -1,5 +1,6 @@
 # problem 26
-# 997 is the maximum number of stack length python can have, if the question asks a limit >> 1000, it is necessary to come up with a more clever solution.
+# 997 is the maximum number of stack length python can have, 
+#if the question asks a limit >> 1000, it is necessary to come up with a more clever solution.
 
 def detectLoop(i,n, count):
 	i = i * 10
@@ -29,6 +30,7 @@ for i in range(2,1000):
 		looplens.append(loopLen)
 		num.append(i)
 print max(looplens)
+#982 was derived from one run of max(looplens)
 print num[looplens.index(982)]
 
 print detectLoop(1,982,0)
