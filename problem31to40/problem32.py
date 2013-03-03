@@ -32,3 +32,9 @@ for i in lst:
 				if c not in pand:
 					pand.append(c)
 print pand
+
+# [5796, 4396, 7632, 6952, 5346, 7254, 7852, 16038, 21658, 26910, 17082, 17820, 19
+#084, 20457, 20754, 24507, 15628, 27504, 15678, 28651, 32890, 28156, 36508, 34902
+#, 58401, 65128, 65821] is the answer for 0~9..
+# for answer to 1~9, we choose the four digit subset 
+# sum is 45228
