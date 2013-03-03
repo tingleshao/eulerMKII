@@ -1,4 +1,6 @@
 # problem 38 
+# Is it true that the largest number found for n = 1..2 have to yield the 
+#  largest result? 
 def permute(lst):
 	if len(lst) == 1:
 		return lst
