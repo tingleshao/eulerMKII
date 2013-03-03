@@ -10,7 +10,7 @@ def generatePrime(n):
 					print i
 					p2.remove(i)
 	return p2 
-p2 = generatePrime(100000)
+p2 = generatePrime(1000000)
 print "generate finished"
 circular = []
 def generateCircular(i):
