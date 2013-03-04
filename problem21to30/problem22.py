@@ -1,7 +1,7 @@
 # problem 22
 name_file = open('names.txt')
 name = name_file.readline()
-name_lst = name.split(',')
+name_lst = name.strip('""').split('","')
 name_lst.sort()
 #print name_lst
 
