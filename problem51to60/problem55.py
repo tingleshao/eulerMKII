@@ -1,4 +1,5 @@
 # problem 55
+# time complexity: O(C(50) * n), = O(n) n is number of numbers considered
 def is_palindrome(n):
 	orig_n = n
 	n_str = str(n)
