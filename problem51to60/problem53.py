@@ -1,4 +1,6 @@
 # problem 53 
+# straight forward solution is very fast
+#  time complexity: O(n^2 * n) = O(n^3)   
 def combin(n,r):
 	return frac(n) / ( frac(n-r) * frac(r))
 	
