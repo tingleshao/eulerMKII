@@ -1,5 +1,5 @@
 # problem 69
-
+# this solution takes 4 days 
 def gcd(a,b):
 	while b != 0:
 		t = b
