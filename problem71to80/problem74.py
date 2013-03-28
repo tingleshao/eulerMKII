@@ -20,7 +20,7 @@ def factorial(n):
 		return 40320
 	elif n == 9:
 		return 362880
-len_lst = []
+#len_lst = []
 total_count = 0
 for i in range(1,1000000):
 	print "-----------"
@@ -33,7 +33,7 @@ for i in range(1,1000000):
 		for d in str(dd):
 			sum_ = sum_ + factorial(int(d))
 		if sum_  in lst:
-			len_lst.append(len(lst))
+			#len_lst.append(len(lst))
 			if i == 78:
 				print "--------"
 				print lst
@@ -46,7 +46,7 @@ for i in range(1,1000000):
 		dd = sum_
 print total_count
 		
-print "max: " +str( max(len_lst)	)
+#print "max: " +str( max(len_lst)	)
 		
 		
 		
