@@ -12,7 +12,7 @@ denominator_lst = []
 #count = 0
 for d in range(1,12001):
 	print d
-	for n in range(1,d):
+	for n in range((d-1)/3,(d+1)/2):
 		fn = float(n)
 		flag = True
 		if fn / d >= 1.0 / 2:
