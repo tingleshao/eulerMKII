@@ -16,6 +16,6 @@ for i in range(37):
 		for ele in row:
 			for j in range(10):
 				grid[row] = j
-				
+				if 
 
 		
