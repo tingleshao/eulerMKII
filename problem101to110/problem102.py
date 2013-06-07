@@ -1,5 +1,10 @@
 # problem 102
-
+# If all ys or all xs have the same sign, (including zero case) the triangle does not contain 
+#  the origin.
+# If two of them have the same sign while the other one has the opposite sign, then check the zero
+#  crossing between that one and the other two. If the zero crossings have opposite sign, then 
+#  the triangle contains the origin, otherwise it does not. 
+# This covers all the cases.
 
 def containsOrigin(x1,y1,x2,y2,x3,y3):
 	if (x1 >= 0 and x2 >= 0 and x3 >= 0):
