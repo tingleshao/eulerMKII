@@ -1,3 +1,6 @@
+# this solution is stil very slow
+# probably this should be written in C/C++
+
 def fast_fibo(n):
 	return fast_fib_n(1,1,n)
 
